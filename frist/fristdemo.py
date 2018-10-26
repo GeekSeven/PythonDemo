@@ -15,4 +15,10 @@ def add_function(a,b):
 d=add_function(2,3)
 print (d);
 
+#for循环 字符串长度
+word="hello world"
+length=0
+for i in word:
+    length=length+1
+print("字符长度："+str(length))
 
