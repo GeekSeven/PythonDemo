@@ -24,14 +24,14 @@ print("字符长度："+str(length))
 
 #if 判断用户
 
-usename='zhenghaoran'
-password='51304170'
+USENAME='zhenghaoran'
+PASSWORD='51304170'
 
 print('input your name')
 name_account=input()
 print ('input your password')
 pass_account=input()
 
-if name_account==usename and pass_account==password:
+if name_account==USENAME and pass_account==PASSWORD:
     print('ture')
 else: print ('false')
