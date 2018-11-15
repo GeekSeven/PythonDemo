@@ -35,3 +35,12 @@ pass_account=input()
 if name_account==USENAME and pass_account==PASSWORD:
     print('ture')
 else: print ('false')
+
+#elif 用法
+
+a=51304170
+
+if a==1:
+    print ('1')
+elif a==51304170:
+    print ('51304170')
