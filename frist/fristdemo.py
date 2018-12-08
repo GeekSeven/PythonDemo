@@ -1,4 +1,6 @@
 #coding=utf-8
+from classdemo import Student
+
 
 #打印
 print ('hello world')
@@ -44,3 +46,6 @@ if a==1:
     print ('1')
 elif a==51304170:
     print ('51304170')
+
+student=Student()
+student.printstudent()

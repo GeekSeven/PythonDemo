@@ -26,3 +26,9 @@ b=datetime.datetime.strptime('2018728','%Y%m%d')
 days=(a-b).days
 print (days)
 
+
+#dir函数
+infor=dir()
+print(infor)
+print(__package__ or '无包') 
+print(__name__ or '无包') 
